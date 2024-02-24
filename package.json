@@ -1,8 +1,8 @@
 {
   "name": "lping-webpack-plugin",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "自定义webpack插件，输出打包后的资源清单",
-  "main": "./dist/index.js",
+  "main": "./plugin/index.js",
   "repository": "https://github.com/kurongdashi/my-webpack-plugin.git",
   "author": "lp123 <1970664102@qq.com>",
   "license": "MIT",

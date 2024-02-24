@@ -1,5 +1,6 @@
-const MyWebpackPlugin = require("./plugins");
+// const MyWebpackPlugin = require("./plugins");
 module.exports = {
+  mode: "development",
   entry: "./plugins/index.js",
   output: {
     filename: "index.js",

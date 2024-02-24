@@ -1,3 +1,4 @@
+// 测试代码
 export function print(str) {
   const res = "我爱吃：" + str;
   console.log(res);
