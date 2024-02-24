@@ -1,0 +1,17 @@
+{
+  "name": "lping-webpack-plugin",
+  "version": "1.0.0",
+  "description": "自定义webpack插件，输出打包后的资源清单",
+  "main": "index.js",
+  "repository": "https://github.com/kurongdashi/my-webpack-plugin.git",
+  "author": "lp123 <1970664102@qq.com>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "build": "webpack"
+  },
+  "devDependencies": {
+    "webpack": "^5.90.3",
+    "webpack-cli": "^5.1.4"
+  }
+}
