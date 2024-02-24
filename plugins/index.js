@@ -2,9 +2,8 @@
  * 实现webpack插件，需要执行apply()方法即可
  */
 class MyWebpackPlugin {
-  constructor(options) {
+  constructor(options = {}) {
     // 创建插件对象时传入参数
-    console.log("options=", options);
     this.options = options;
   }
   // compiler 为编译对象，有几种生命周期钩子可回调
@@ -32,7 +31,7 @@ class MyWebpackPlugin {
       chunks.forEach((chunk) => {
         for (const module of chunk.modulesIterable) {
           module.dependencies.forEach((dependency) => {
-            console.log("依赖的模块有：", dependency);
+            // console.log("依赖的模块有：", dependency);
           });
         }
       });

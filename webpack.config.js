@@ -1,14 +1,14 @@
-// const MyWebpackPlugin = require("./plugins");
+const MyWebpackPlugin = require("./plugins");
 module.exports = {
   mode: "development",
-  entry: "./plugins/index.js",
+  entry: "./src/index.js",
   output: {
     filename: "index.js",
     clean: true,
   },
-  //   plugins: [
-  //     new MyWebpackPlugin({
-  //       name: "张三",
-  //     }),
-  //   ],
+  plugins: [
+    new MyWebpackPlugin({
+      name: "张三",
+    }),
+  ],
 };
