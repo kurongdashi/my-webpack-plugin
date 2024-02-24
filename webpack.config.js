@@ -5,9 +5,9 @@ module.exports = {
     filename: "index.js",
     clean: true,
   },
-  plugins: [
-    new MyWebpackPlugin({
-      name: "张三",
-    }),
-  ],
+  //   plugins: [
+  //     new MyWebpackPlugin({
+  //       name: "张三",
+  //     }),
+  //   ],
 };
